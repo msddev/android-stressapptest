@@ -170,11 +170,14 @@
 /* Define to 1 if strerror_r returns char *. */
 /* #undef STRERROR_R_CHAR_P */
 
+/* Defined if the target CPU is aarch64 */
+#define STRESSAPPTEST_CPU_AARCH64
+
 /* Defined if the target CPU is armv7a */
-/*#define STRESSAPPTEST_CPU_ARMV7A*/
+/* #define STRESSAPPTEST_CPU_ARMV7A */
 
 /* Defined if the target CPU is i686 */
-#define STRESSAPPTEST_CPU_I686
+/* #define STRESSAPPTEST_CPU_I686 */
 
 /* Defined if the target CPU is MIPS */
 /* #undef STRESSAPPTEST_CPU_MIPS */
